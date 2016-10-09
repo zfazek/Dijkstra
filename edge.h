@@ -1,5 +1,4 @@
-#ifndef EDGE_H
-#define EDGE_H
+#pragma once
 
 // Class storing the edges of the graph.
 // Each edge has a source and a dest id and a value between source and dest vertex.
@@ -27,7 +26,3 @@ class Edge {
             return false;
         }
 };
-
-
-
-#endif

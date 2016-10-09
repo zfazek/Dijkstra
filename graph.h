@@ -1,5 +1,4 @@
-#ifndef GRAPH_H
-#define GRAPH_H
+#pragma once
 
 #include <map>
 #include <set>
@@ -69,5 +68,3 @@ class Graph {
         void removeVertex(int id);
 
 };
-
-#endif
